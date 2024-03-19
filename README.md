@@ -91,7 +91,7 @@ Make sure to include the appropriate route (e.g., `/webhook`) in the ngrok URL i
 
 ![image](https://github.com/ASonneP/GPTLineChatBot/assets/97184817/79a4ef4d-4c31-4bd6-b3f3-81c1fb1517e4)
 
-Now, your LINE Messaging API requests will be forwarded to your local server through ngrok, allowing you to test webhook functionality locally 🎉.
+*Now, your LINE Messaging API requests will be forwarded to your local server through ngrok, allowing you to test webhook functionality locally 🥳*
 
 ## Usage
 
