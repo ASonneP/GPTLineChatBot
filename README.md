@@ -68,6 +68,7 @@ After changing to the ngrok directory, run the following command in your termina
 ```bash
 ./ngrok http 3000
 ```
+![image](https://github.com/ASonneP/GPTLineChatBot/assets/97184817/6a10edc9-dc5e-4dfe-a270-f92b335de94e)
 
 #### Updating Webhook URL
 
@@ -81,7 +82,9 @@ With ngrok running, you need to update the webhook URL in your LINE Messaging AP
 
 Make sure to include the appropriate route (e.g., `/webhook`) in the ngrok URL if your webhook endpoint has a specific path.
 
-Now, your LINE Messaging API requests will be forwarded to your local server through ngrok, allowing you to test webhook functionality locally.
+![image](https://github.com/ASonneP/GPTLineChatBot/assets/97184817/79a4ef4d-4c31-4bd6-b3f3-81c1fb1517e4)
+
+Now, your LINE Messaging API requests will be forwarded to your local server through ngrok, allowing you to test webhook functionality locally 🎉.
 
 ## Usage
 
