@@ -36,7 +36,7 @@ app.post("/webhook", async (req, res) => {
                 content: message,
               },
             ],
-            max_tokens: 3000,
+            max_tokens: 3000, // Limits the total number of tokens in the model's response to avoid exceeding resource constraints.
           },
           {
             headers: {
