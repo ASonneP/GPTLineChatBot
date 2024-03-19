@@ -36,7 +36,7 @@ app.post("/webhook", async (req, res) => {
                 content: message,
               },
             ],
-            max_tokens: 50,
+            max_tokens: 3000,
           },
           {
             headers: {
@@ -49,8 +49,6 @@ app.post("/webhook", async (req, res) => {
 
         const generatedResponse =
           response.data.choices[0].message.content.trim();
-
-        // const generatedResponse = "got it";
 
         // Send response back to user
         await axios.post(
