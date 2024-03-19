@@ -21,4 +21,28 @@ To install the project, follow these steps:
 
 1. Clone the repository to your local machine:
 
+```bash
+git clone https://github.com/ASonneP/GPTLineChatBot.git
+
+2. Navigate into the project directory:
+
+```bash
+cd GPTLineChatBot
+
+3. Install the necessary dependencies:
+
+```bash
+npm install
+
+4. Create a .env file in the root directory of the project and add your OpenAI API key and LINE channel access token:
+
+``` plaintext
+OPENAI_API_KEY=your_openai_api_key
+LINE_CHANNEL_ACCESS_TOKEN=your_line_channel_access_token
+
+## Usage
+
+
+
+
 
