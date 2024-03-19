@@ -40,10 +40,17 @@ npm install
 
 **4. Create a .env file in the root directory of the project and add your OpenAI API key and LINE channel access token:**
 
-```plaintext
-OPENAI_API_KEY=your_openai_api_key
-LINE_CHANNEL_ACCESS_TOKEN=your_line_channel_access_token
-```
+To set up your environment variables, follow these steps:
+
+1. Locate the `.env.template` file in the root directory of the project.
+2. Rename the `.env.template` file to `.env`.
+3. Open the newly renamed `.env` file in a text editor.
+4. Replace `your_openai_api_key` with your actual OpenAI API key and `your_line_channel_access_token` with your LINE channel access token.
+
+Make sure not to share your API keys or access tokens publicly.
+
+This `.env` file will be used to securely store sensitive information required by your application.
+
 
 **5. Set up LINE Messaging API webhook URL:**
 Before running the server, ensure you correctly set up the webhook URL in your LINE Messaging API settings. Refer to the LINE Messaging API documentation for instructions.
